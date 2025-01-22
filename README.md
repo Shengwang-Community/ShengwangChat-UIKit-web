@@ -1,6 +1,6 @@
 # Shengwang Chat UIKit for React
 
-![Static Badge](https://img.shields.io/badge/platform-React-green) ![Static Badge](https://img.shields.io/badge/language-typescript-green) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Shengwang-Community/ShengwangChat-UIKit-web) ![GitHub last commit](https://img.shields.io/github/last-commit/Shengwang-Community/ShengwangChat-UIKit-web) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/Shengwang-Community/ShengwangChat-UIKit-web) ![GitHub License](https://img.shields.io/github/license/Shengwang-Community/ShengwangChat-UIKit-web) ![GitHub Tag](https://img.shields.io/github/v/tag/Shengwang-Community/ShengwangChat-UIKit-web) ![NPM Version](https://img.shields.io/npm/v/easemob-chat-uikit)
+![Static Badge](https://img.shields.io/badge/platform-React-green) ![Static Badge](https://img.shields.io/badge/language-typescript-green) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Shengwang-Community/ShengwangChat-UIKit-web) ![GitHub last commit](https://img.shields.io/github/last-commit/Shengwang-Community/ShengwangChat-UIKit-web) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/Shengwang-Community/ShengwangChat-UIKit-web) ![GitHub License](https://img.shields.io/github/license/Shengwang-Community/ShengwangChat-UIKit-web) ![GitHub Tag](https://img.shields.io/github/v/tag/Shengwang-Community/ShengwangChat-UIKit-web) ![NPM Version](https://img.shields.io/npm/v/shengwang-chat-uikit)
 
 本文将介绍声网新单群聊 UIKit。新单群聊 UIKit 致力于为开发者提供高效集成、即插即用、高自由度定制化的 UI 组件库，助力构建功能全面、设计美观的 IM 应用，轻松满足即时通信绝大多数场景。请下载示例进行体验。
 
@@ -25,7 +25,7 @@ Shengwang Chat UIKit for WEB 是集开发工具包与用户界面于一体的开
 
 ## ⚙️ 技术原理
 
-UIKIt 由三部分组成：UI 组件，管理数据的 mobx store, chat SDK。UI 组件包含容器组件 container 复合组件 module, 以及纯 UI 组件 components, 这些不同级别的组件全部对外暴露，用户可以引用任意组件构建自己的应用。UIkit 使用 mobx 管理全局数据，用户可以引用 rootStore 来获得全部数据和 action 方法，可以用 action 方法来操作数据。 UIKit 内部集成了 chat SDK，通过 chat SDK 和服务器交互。<div align=center> <img src="https://github.com/Shengwang-Community/ShengwangChat-UIKit-web/blob/main/docs/image/uikit.png" width = "400" height = "450" /></div>
+UIKIt 由三部分组成：UI 组件，管理数据的 mobx store, chat SDK。UI 组件包含容器组件 container 复合组件 module, 以及纯 UI 组件 components, 这些不同级别的组件全部对外暴露，用户可以引用任意组件构建自己的应用。UIkit 使用 mobx 管理全局数据，用户可以引用 rootStore 来获得全部数据和 action 方法，可以用 action 方法来操作数据。 UIKit 内部集成了 chat SDK，通过 chat SDK 和服务器交互。<div align=center> <img src="https://github.com/Shengwang-Community/ShengwangChat-UIKit-web/blob/main/docsimg/uikit.png" width = "400" height = "450" /></div>
 
 ## ✨ 功能
 
@@ -212,7 +212,7 @@ npm run start
 
 在浏览器可看到你的应用。
 
-<div align=center style="background: #ddd; padding-top: 8px"> <img src="https://github.com/Shengwang-Community/ShengwangChat-UIKit-web/blob/main/docs/image/chat.png" width = "480" height = "350" /></div>
+<div align=center style="background: #ddd; padding-top: 8px"> <img src="https://github.com/Shengwang-Community/ShengwangChat-UIKit-web/blob/main/docsimg/chat.png" width = "480" height = "350" /></div>
 
 在默认 App Key 情况下，为方便快速体验，我们默认支持几种类型的消息下发。点击选中一个成员后，输入你的第一条消息并发送。
 
