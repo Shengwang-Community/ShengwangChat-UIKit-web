@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+dist
+build
+storybook-static
+yarn.lock
+package-lock.json
+*.log
+*.log.*
+/coverage
+/.history
+*.tmp
+/.vscode/
+agora-chat-uikit-*
+uikits/
+docs/
+demo/
