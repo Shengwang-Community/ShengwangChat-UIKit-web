@@ -194,7 +194,7 @@ const DefaultTemplate: StoryFn<React.FC<ChatProps>> = args => (
   <div style={{ height: '500px' }}>
     <Provider
       initConfig={{
-        appKey: 'a#b',
+        appId: 'abc',
       }}
       theme={{
         mode: 'light',
@@ -209,7 +209,7 @@ const DarkTemplate: StoryFn<React.FC<ChatProps>> = args => (
   <div style={{ height: '500px' }}>
     <Provider
       initConfig={{
-        appKey: 'a#b',
+        appId: 'abc',
       }}
       theme={{
         mode: 'dark',
@@ -224,7 +224,7 @@ const SquareTemplate: StoryFn<React.FC<ChatProps>> = args => (
   <div style={{ height: '500px' }}>
     <Provider
       initConfig={{
-        appKey: 'a#b',
+        appId: 'abc',
       }}
       theme={{
         mode: 'light',

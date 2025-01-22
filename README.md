@@ -176,7 +176,7 @@ const ChatApp = () => {
   }, [client]);
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
+    <div style={{ display: 'flex', height: '100vh' }}>
       <div style={{ width: '350px' }}>
         <ConversationList />
       </div>
@@ -214,9 +214,9 @@ npm run start
 
 <div align=center style="background: #ddd; padding-top: 8px"> <img src="https://github.com/Shengwang-Community/ShengwangChat-UIKit-web/blob/main/docsImg/chat.png" width = "480" height = "350" /></div>
 
-在默认 App Key 情况下，为方便快速体验，我们默认支持几种类型的消息下发。点击选中一个成员后，输入你的第一条消息并发送。
+在默认 appId 情况下，为方便快速体验，我们默认支持几种类型的消息下发。点击选中一个成员后，输入你的第一条消息并发送。
 
-**注意** 使用自定义 App Key 时，由于没有联系人，需先添加好友
+**注意** 使用自定义 appId 时，由于没有联系人，需先添加好友
 
 ## 🌈 进阶指南
 
@@ -373,7 +373,7 @@ shengwang-chat-uikit
 
 ## 🔗 参考文档
 
-[其他相关文档](https://github.com/Shengwang-Community/ShengwangChat-UIKit-web/tree/main/docs/zh)
+[其他相关文档](https://github.com/Shengwang-Community/ShengwangChat-UIKit-web/tree/main/docs)
 
 ## 📁 相关资源
 

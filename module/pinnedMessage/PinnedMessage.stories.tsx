@@ -78,7 +78,7 @@ const Template: StoryFn<typeof PinnedMessage> = args => {
     <div style={{ height: '500px' }}>
       <Provider
         initConfig={{
-          appKey: 'a#b',
+          appId: 'abc',
         }}
       >
         <PinnedMessage {...args} />

@@ -174,13 +174,13 @@ export default {
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: StoryFn<typeof MessageInput> = args => (
-  <Provider initConfig={{ appKey: 'z#b' }}>
+  <Provider initConfig={{ appId: 'abc' }}>
     <MessageInput {...args} conversation={{ chatType: 'singleChat', conversationId: 'zd2' }} />
   </Provider>
 );
 
 const DarkTemplate: StoryFn<typeof MessageInput> = args => (
-  <Provider initConfig={{ appKey: 'z#b' }} theme={{ mode: 'dark' }}>
+  <Provider initConfig={{ appId: 'abc' }} theme={{ mode: 'dark' }}>
     <div style={{ background: '#171a1c' }}>
       <MessageInput {...args} conversation={{ chatType: 'singleChat', conversationId: 'zd2' }} />
     </div>
@@ -188,7 +188,7 @@ const DarkTemplate: StoryFn<typeof MessageInput> = args => (
 );
 
 const SquareTemplate: StoryFn<typeof MessageInput> = args => (
-  <Provider initConfig={{ appKey: 'z#b' }} theme={{ mode: 'light', componentsShape: 'square' }}>
+  <Provider initConfig={{ appId: 'abc' }} theme={{ mode: 'light', componentsShape: 'square' }}>
     <div style={{ background: '#171a1c' }}>
       <MessageInput {...args} conversation={{ chatType: 'singleChat', conversationId: 'zd2' }} />
     </div>

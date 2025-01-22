@@ -83,7 +83,7 @@ export default {
 const Template: StoryFn<typeof VideoMessage> = args => (
   <Provider
     initConfig={{
-      appKey: 'a#b',
+      appId: 'abc',
     }}
   >
     <VideoMessage {...args} />
@@ -102,10 +102,9 @@ export const Primary = {
       chatType: 'singleChat',
       from: 'zd2',
       to: 'ljn',
-      url: 'https://a4-v2.easemob.com/easemob/easeim/chatfiles/dfab9460-bb47-11ee-9588-db947bb82d2a?em-redirect=true&share-secret=36wwoLtHEe6TWaXj8svlq2yZParnRbw-Oa-8DkviwYjuC1Uc',
+      url: 'https://example.com',
       secret: '36wwoLtHEe6TWaXj8svlq2yZParnRbw-Oa-8DkviwYjuC1Uc',
-      thumb:
-        'https://a4-v2.easemob.com/easemob/easeim/chatfiles/dfab9460-bb47-11ee-9588-db947bb82d2a?em-redirect=true&share-secret=36wwoLtHEe6TWaXj8svlq2yZParnRbw-Oa-8DkviwYjuC1Uc&vframe=true',
+      thumb: 'https://example.com',
       thumb_secret: '36wwoLtHEe6TWaXj8svlq2yZParnRbw-Oa-8DkviwYjuC1Uc',
       filename: '9f6982b61c1d8c56a8e7497a4d6c5857.mov',
       length: 0,
@@ -139,10 +138,9 @@ export const Secondly = {
       chatType: 'singleChat',
       from: 'zd2',
       to: 'ljn',
-      url: 'https://a4-v2.easemob.com/easemob/easeim/chatfiles/dfab9460-bb47-11ee-9588-db947bb82d2a?em-redirect=true&share-secret=36wwoLtHEe6TWaXj8svlq2yZParnRbw-Oa-8DkviwYjuC1Uc',
+      url: 'https://example.com',
       secret: '36wwoLtHEe6TWaXj8svlq2yZParnRbw-Oa-8DkviwYjuC1Uc',
-      thumb:
-        'https://a4-v2.easemob.com/easemob/easeim/chatfiles/dfab9460-bb47-11ee-9588-db947bb82d2a?em-redirect=true&share-secret=36wwoLtHEe6TWaXj8svlq2yZParnRbw-Oa-8DkviwYjuC1Uc&vframe=true',
+      thumb: 'https://example.com',
       thumb_secret: '36wwoLtHEe6TWaXj8svlq2yZParnRbw-Oa-8DkviwYjuC1Uc',
       filename: '9f6982b61c1d8c56a8e7497a4d6c5857.mov',
       length: 0,

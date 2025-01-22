@@ -126,7 +126,7 @@ const Template: StoryFn<typeof UserSelect> = args => (
 );
 
 const DarkTemplate: StoryFn<typeof UserSelect> = args => (
-  <Provider initConfig={{ appKey: 'z#b' }} theme={{ mode: 'dark' }}>
+  <Provider initConfig={{ appId: 'abc' }} theme={{ mode: 'dark' }}>
     <div style={{ background: '#171a1c' }}>
       <UserSelect {...args} closable={true} enableMultipleSelection={true} />
     </div>

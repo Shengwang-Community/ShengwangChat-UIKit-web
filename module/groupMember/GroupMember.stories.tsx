@@ -128,7 +128,7 @@ export default {
 const Template: StoryFn<typeof GroupMember> = args => (
   <Provider
     initConfig={{
-      appKey: 'a#b',
+      appId: 'abc',
     }}
   >
     <GroupMember {...args} />

@@ -86,7 +86,7 @@ export default {
 const Template: StoryFn<typeof UserCardMessage> = args => (
   <Provider
     initConfig={{
-      appKey: 'a#b',
+      appId: 'abc',
     }}
   >
     <UserCardMessage {...args} />

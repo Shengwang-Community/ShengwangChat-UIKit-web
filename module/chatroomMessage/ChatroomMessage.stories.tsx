@@ -63,7 +63,7 @@ export default {
 const Template: StoryFn<typeof ChatroomMessage> = args => (
   <Provider
     initConfig={{
-      appKey: 'a#b',
+      appId: 'abc',
     }}
   >
     <ChatroomMessage {...args} />
@@ -106,8 +106,7 @@ export const giftMessage = {
         chatroom_uikit_userInfo: {
           userId: 'pev4pyzbwnutbp7a',
           nickname: 'Leo',
-          avatarURL:
-            'https://a1.easemob.com/easemob/chatroom-uikit/chatfiles/a27bd9a0-79f8-11ee-8f83-551faec94303',
+          avatarURL: 'https://livestream-hsb.oss-cn-beijing.aliyuncs.com/story/avatar16%403x.png',
           gender: 1,
         },
       },

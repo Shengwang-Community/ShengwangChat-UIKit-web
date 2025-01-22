@@ -77,7 +77,7 @@ export default {
 const Template: StoryFn<typeof AudioMessage> = args => (
   <Provider
     initConfig={{
-      appKey: 'a#b',
+      appId: 'abc',
     }}
   >
     <AudioMessage {...args} />
@@ -87,7 +87,7 @@ const Template: StoryFn<typeof AudioMessage> = args => (
 const DarkTemplate: StoryFn<typeof AudioMessage> = args => (
   <Provider
     initConfig={{
-      appKey: 'a#b',
+      appId: 'abc',
     }}
     theme={{
       mode: 'dark',

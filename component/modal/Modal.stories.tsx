@@ -226,7 +226,7 @@ const Template: StoryFn<typeof Modal> = args => {
 const DarkTemplate: StoryFn<typeof Modal> = args => {
   const [isOpen, setOpen] = useState<boolean>(false);
   return (
-    <Provider initConfig={{ appKey: 'a#b' }} theme={{ mode: 'dark' }}>
+    <Provider initConfig={{ appId: 'abc' }} theme={{ mode: 'dark' }}>
       <Button onClick={() => setOpen(true)}>open</Button>
       <Modal {...args} onCancel={() => setOpen(false)} open={isOpen}>
         <p>Some contents...</p>

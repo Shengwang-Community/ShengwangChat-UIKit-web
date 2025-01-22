@@ -80,7 +80,7 @@ export default {
 const Template: StoryFn<typeof GroupDetail> = args => (
   <Provider
     initConfig={{
-      appKey: 'a#b',
+      appId: 'abc',
     }}
   >
     <GroupDetail {...args} />
@@ -90,7 +90,7 @@ const Template: StoryFn<typeof GroupDetail> = args => (
 const DarkTemplate: StoryFn<typeof GroupDetail> = args => (
   <Provider
     initConfig={{
-      appKey: 'a#b',
+      appId: 'abc',
     }}
     theme={{
       mode: 'dark',

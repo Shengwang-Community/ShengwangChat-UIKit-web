@@ -66,7 +66,7 @@ export default {
 const Template: StoryFn<typeof RepliedMsg> = args => (
   <Provider
     initConfig={{
-      appKey: 'a#b',
+      appId: 'abc',
     }}
   >
     <RepliedMsg {...args} />

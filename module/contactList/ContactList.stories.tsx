@@ -158,7 +158,7 @@ rootStore.addressStore.setAppUserInfo({
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: StoryFn<typeof ContactList> = args => (
-  <Provider initConfig={{ appKey: 'a#b' }}>
+  <Provider initConfig={{ appId: 'abc' }}>
     {' '}
     <ContactList {...args} />
   </Provider>
@@ -166,7 +166,7 @@ const Template: StoryFn<typeof ContactList> = args => (
 
 const DarkTemplate: StoryFn<typeof ContactList> = args => (
   <Provider
-    initConfig={{ appKey: 'a#b' }}
+    initConfig={{ appId: 'abc' }}
     theme={{
       mode: 'dark',
     }}
@@ -178,7 +178,7 @@ const DarkTemplate: StoryFn<typeof ContactList> = args => (
 
 const SquareTemplate: StoryFn<typeof ContactList> = args => (
   <Provider
-    initConfig={{ appKey: 'a#b' }}
+    initConfig={{ appId: 'abc' }}
     theme={{
       mode: 'dark',
       avatarShape: 'square',

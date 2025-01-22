@@ -127,7 +127,7 @@ export default {
 const Template: StoryFn<typeof TextMessage> = args => (
   <Provider
     initConfig={{
-      appKey: 'a#b',
+      appId: 'abc',
     }}
   >
     <TextMessage {...args} />

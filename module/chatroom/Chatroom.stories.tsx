@@ -130,7 +130,7 @@ const DefaultTemplate: StoryFn<typeof Chatroom> = args => (
   <div style={{ height: '500px' }}>
     <Provider
       initConfig={{
-        appKey: 'a#b',
+        appId: 'abc',
       }}
     >
       <Chatroom {...args} />
@@ -142,7 +142,7 @@ const DarkTemplate: StoryFn<typeof Chatroom> = args => (
   <div style={{ height: '500px' }}>
     <Provider
       initConfig={{
-        appKey: 'a#b',
+        appId: 'abc',
       }}
       theme={{
         mode: 'dark',
@@ -157,7 +157,7 @@ const SquareTemplate: StoryFn<typeof Chatroom> = args => (
   <div style={{ height: '500px' }}>
     <Provider
       initConfig={{
-        appKey: 'a#b',
+        appId: 'abc',
       }}
       theme={{
         mode: 'light',

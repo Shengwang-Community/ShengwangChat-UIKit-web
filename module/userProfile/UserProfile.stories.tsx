@@ -53,7 +53,7 @@ export default {
 } as Meta<typeof UserProfile>;
 
 const DarkTemplate: StoryFn<typeof UserProfile> = args => (
-  <Provider initConfig={{ appKey: 'z#b' }} theme={{ mode: 'dark' }}>
+  <Provider initConfig={{ appId: 'abc' }} theme={{ mode: 'dark' }}>
     <div style={{ background: '#171a1c' }}>
       <UserProfile {...args} />
     </div>
