@@ -43,7 +43,7 @@ UIKIt 由三部分组成：UI 组件，管理数据的 mobx store, chat SDK。UI
 
 ## 🧩 组件
 
-`shengwang-chat-uikit` 目前提供容器组件、模块组件、纯 UI 组件三个级别的组件，组件详情可以查看[故事书]()
+`shengwang-chat-uikit` 目前提供容器组件、模块组件、纯 UI 组件三个级别的组件，组件详情可以查看[故事书](https://im.shengwang.cn/sdkdocs/chat1.x/uikit/)
 
 ## 🖥 运行示例 App
 
